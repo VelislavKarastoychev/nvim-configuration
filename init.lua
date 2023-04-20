@@ -1,4 +1,5 @@
 require("euriklis.plugins-setup")
+require("euriklis.plugins.toggleterm")
 require("euriklis.core.options")
 require("euriklis.core.keymaps")
 require("euriklis.core.colorscheme")
