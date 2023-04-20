@@ -65,9 +65,7 @@ keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>")
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>")
 -- list available help tags
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
--- set the horizontal terminal:
-keymap.set("n", "<leader>vt", ":vnew<CR>:terminal<CR>i")
+-- open vertical terminal
+keymap.set("n", "<leader>v", ":ToggleTerm direction='vertical' size=50<CR>")
 -- open horizontal terminal:
-keymap.set("n", "<leader>ht", ":new<CR>:terminal<CR>i")
--- close the terminal:
-keymap.set("t", "<leader>sx", "<C-D><CR><CR>")
+keymap.set("n", "<leader>h", ":ToggleTerm direction='horizontal' height=20<CR>")
