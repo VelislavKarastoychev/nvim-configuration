@@ -9,7 +9,7 @@ To install the configuration on your ubuntu distribution type the following comm
 terminal:
 
 ```sh
-git clone https://github.com/VelislavKarastoychev/nvim-configuration
+git clone https://github.com/VelislavKarastoychev/nvim-configuration ~/.config/nvim/ --depth=1
 ```
 
 # TODO
